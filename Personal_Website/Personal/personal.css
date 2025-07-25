@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
 
@@ -17,7 +17,10 @@ body {
   line-height: 1.5em;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
 }
@@ -42,7 +45,8 @@ img {
   height: auto;
 }
 
-textarea, input {
+textarea,
+input {
   outline: none;
   border: none;
   background: none;
@@ -75,8 +79,8 @@ textarea, input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .nav_list {
@@ -84,8 +88,8 @@ textarea, input {
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 3.25rem;
-     -moz-column-gap: 3.25rem;
-          column-gap: 3.25rem;
+  -moz-column-gap: 3.25rem;
+  column-gap: 3.25rem;
 }
 
 .nav_link {
@@ -150,15 +154,19 @@ textarea, input {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(54deg, rgba(45, 45, 45, 0.65) 34%, rgba(45, 45, 45, 0.65) 66%);
+  background: linear-gradient(
+    54deg,
+    rgba(45, 45, 45, 0.65) 34%,
+    rgba(45, 45, 45, 0.65) 66%
+  );
 }
 
 .home_container {
   -ms-grid-columns: 4fr 1.875rem 8fr;
   grid-template-columns: 4fr 8fr;
   -webkit-column-gap: 1.875rem;
-     -moz-column-gap: 1.875rem;
-          column-gap: 1.875rem;
+  -moz-column-gap: 1.875rem;
+  column-gap: 1.875rem;
 }
 
 .home_img,
@@ -171,9 +179,9 @@ textarea, input {
   height: 380px;
   border-radius: 20px;
   -webkit-transform: translateY(3rem);
-          transform: translateY(3rem);
+  transform: translateY(3rem);
   -webkit-box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
-          box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
+  box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
 }
 
 .home_name,
@@ -187,6 +195,7 @@ textarea, input {
   font-size: 20px;
   line-height: 1.14em;
   margin: 0.9em 0 0.23em;
+  margin-top: 50px;
 }
 
 .home_work {
@@ -273,11 +282,11 @@ textarea, input {
 .button_flex {
   display: inline;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-column-gap: 0.3rem;
-     -moz-column-gap: 0.3rem;
-          column-gap: 0.3rem;
+  -moz-column-gap: 0.3rem;
+  column-gap: 0.3rem;
 }
 
 /*========= Skills =========*/
@@ -298,7 +307,7 @@ textarea, input {
 
 .skills_item:hover {
   -webkit-box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
-          box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
+  box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
   cursor: pointer;
 }
 
@@ -364,8 +373,8 @@ textarea, input {
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 3rem;
-     -moz-column-gap: 3rem;
-          column-gap: 3rem;
+  -moz-column-gap: 3rem;
+  column-gap: 3rem;
   margin-bottom: 1.875rem;
 }
 
@@ -419,17 +428,17 @@ textarea, input {
   height: 100%;
   border-radius: 10px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: 0.8s ease;
   transition: 0.8s ease;
 }
 
 .project_img:hover {
   -webkit-box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
-          box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
+  box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
   cursor: pointer;
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .project_title {
@@ -458,7 +467,7 @@ textarea, input {
   display: inline;
   margin-right: 0.5rem;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
@@ -504,7 +513,11 @@ textarea, input {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(54deg, rgba(45, 45, 45, 0.65) 34%, rgba(45, 45, 45, 0.65) 66%);
+  background: linear-gradient(
+    54deg,
+    rgba(45, 45, 45, 0.65) 34%,
+    rgba(45, 45, 45, 0.65) 66%
+  );
 }
 
 .contact_content {
@@ -516,8 +529,8 @@ textarea, input {
   -ms-grid-columns: 4fr 1.875rem 5fr 1.875rem 3fr;
   grid-template-columns: 4fr 5fr 3fr;
   -webkit-column-gap: 1.875rem;
-     -moz-column-gap: 1.875rem;
-          column-gap: 1.875rem;
+  -moz-column-gap: 1.875rem;
+  column-gap: 1.875rem;
   padding-top: 1.25rem;
 }
 
@@ -588,7 +601,7 @@ textarea, input {
 
 .contact_input:focus {
   -webkit-box-shadow: inset 0 0 5px 0 white;
-          box-shadow: inset 0 0 5px 0 white;
+  box-shadow: inset 0 0 5px 0 white;
 }
 
 .textarea {
@@ -600,7 +613,7 @@ textarea, input {
   width: 100%;
   margin-top: 25px;
   -webkit-box-shadow: 0 1px 29px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 1px 29px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 29px rgba(0, 0, 0, 0.4);
 }
 
 .contact_message_text {
